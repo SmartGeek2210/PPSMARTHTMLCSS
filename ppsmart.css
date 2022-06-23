@@ -1,0 +1,82 @@
+.header {
+  height: 2px;
+  margin-left: 30;
+  margin-right: 200;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background-color: rgb(221, 153, 153);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(228, 228, 228);
+}
+
+.para1 {
+  color: white;
+  background-color: rgb(22, 22, 216);
+  border-bottom-width: 5px;
+  font-family: Roboto, Arial;
+  padding: 4;
+  margin-bottom: 0.8;
+  
+}
+.para2 {
+  color: white;
+  background-color: rgb(134, 134, 238);
+  border-bottom-width: 0;
+  padding: 4;
+  font-family: Roboto, Arial;
+  font-size: 25;
+  margin-top: 0;
+  text-align: left;
+}
+
+.para3 {
+
+  font-weight: bold;
+  font-family: Roboto, Arial;
+  
+}
+
+.box {
+  width: 550;
+  padding-left: 350;
+  
+}
+
+.btn-primary{
+
+background-color: blue;
+color: white;
+padding-right: 14;
+padding-left: 14;
+padding-top: 5;
+padding-bottom: 5;
+font-family: Roboto, Arial;
+border-radius: 5px;
+display: inline-block;
+}
+
+.btn-secondery{
+
+background-color: red;  
+color: white;
+padding-right: 14;
+padding-left: 14;
+padding-top: 5;
+padding-bottom: 5;
+font-family: Roboto, Arial;
+border-radius: 5px;
+
+  }  
+
+.innerbox{
+  padding-top: 40;
+
+}
